@@ -1,0 +1,185 @@
+
+
+h2 {
+    font-size: 34px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 22px;
+}
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+}
+
+header {
+    background-color: black;
+    border-bottom: 1px solid rgba(255, 245, 238, 0.9);
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    z-index: 1;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 62px;
+}
+
+section img {
+    width: 1200px;
+    height: 700px;
+
+}
+
+summary {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 500px;
+    width: 1200px;
+    background-image: url(images/img-locations-background.jpg);
+}
+
+.locs {
+    display: flex;
+}
+
+.locs .inside-div {
+    margin: 0px 40px;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: black;
+    align-content: center;
+    align-items: center;
+    width: 300px;
+    
+    
+}
+
+
+
+.header-content > a {
+    font-size: 22px;
+    margin-right: 30px;
+}
+
+
+
+section .inside-div {
+    display: flex;
+    position: absolute;
+    flex-flow: column wrap;
+    background-color: black;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    opacity: 1 !important;
+}
+
+section .inside-div > h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+section .inside-div > h2 {
+    margin-top: 10px;
+}
+
+.centralized {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article > .titling {
+    text-align: center;
+}
+
+article img {
+    height: 200px;
+    width: 300px;
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+article > .imaging {
+    width: 1000px;
+    max-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+    
+    
+}
+
+.imaging img {
+    margin-bottom: 10px;
+}
+
+.imaging h4 {
+    margin-top: 0;
+    
+}
+
+.imaging div {
+    text-align: center;
+}
+
+article > .imaging.rest {
+
+    width: 660px;
+}
+
+footer > h2 {
+    margin-top: 13px;
+}
+
+footer {
+    width: 100%;
+    border-top: 1px solid seashell;
+    text-align: center;
+    height: 200px;
+    margin-top: 80px;
+}
+
+#copyright {
+    width: 100%;
+    text-align: left;
+}
+
+#copyright > h5 {
+    margin-left: 20px;
+}
